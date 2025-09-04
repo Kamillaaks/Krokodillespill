@@ -1,0 +1,40 @@
+Når du trykker reset-knappen genereres to random tall mellom 1-10
+
+Mellom tallene, må du ha et input felt. Her er det meningen at man 
+skal sammenligne tallene og skrive riktig operator!
+
+Når man trykker submit - må man sjekke at man har skrevet inn riktig 
+tegn i input-feltet og oppdatere poengsummen. Riktig svar plusser på 1 
+poeng, feil svar trekker fra et poeng.
+
+Bruk variabler, onclick, if/else og random for å løse oppgaven! ;) 
+Lykke til!
+
+Ex:
+
+Dersom det første tallet er større enn det andre, må man skrive inn ">" 
+for å få riktig svar, dersom det første tallet er mindre enn må man 
+skrive "<" og dersom tallene er like bruker man "="
+
+1 (inputfelt) 7 (submit btn) points: 0
+
+-------
+
+1 < 7 skriver inn "mindre enn" - trykker submit så vil poengscore 
+oppdateres points: 1
+-----------------------------
+
+
+Hva jeg må ha med:
+- to div'er, en for hvert tall
+- et inputfelt mellom disse to div'ene
+- to buttons, submit og reset
+- bilde av en superkul krokodille
+- en div med poengsum (pluss 1 på rett svar og minus en på feil svar)
+
+hva jeg må gjøre:
+- funksjon som sjekker om svaret er rett
+- funksjon som oppdaterer poengsummen
+- funksjon som putter inn nye tall i divene (random)
+- variabel som lagrer svar
+
